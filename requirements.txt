@@ -10,8 +10,6 @@ SQLAlchemy
 Werkzeug
 numpy
 scikit-image
-torch
-torchvision
 opencv-python
 paddlepaddle
 paddlehub
