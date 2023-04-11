@@ -19,5 +19,6 @@ paddlehub
 gradio
 protobuf==3.20.0
 onnx==1.12.0
-visualdl==2.0.0
+paddlenlp
 Flask-Babel
+visualdl
