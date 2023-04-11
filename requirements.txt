@@ -8,11 +8,11 @@ MarkupSafe==2.0.1
 PyMySQL==1.0.2
 SQLAlchemy==1.4.29
 Werkzeug==2.0.2
-numpy==1.15.2
-scikit-image==0.14.0
+numpy
+scikit-image
 torch
 torchvision
-pillow==8.1.1
+pillow
 opencv-python
 paddlepaddle
 paddlehub
