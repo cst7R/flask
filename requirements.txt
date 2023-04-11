@@ -19,6 +19,6 @@ paddlehub
 gradio
 protobuf==3.20.0
 onnx==1.12.0
+Flask-Babel==3.0.0
 paddlenlp
-Flask-Babel
 visualdl
