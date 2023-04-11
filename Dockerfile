@@ -3,7 +3,9 @@
 FROM ubuntu:20.04
 
 # 更新软件包列表并安装ca-certificates
-RUN apt-get install -y ca-certificates 
+RUN apt-get update \
+&& DEBIAN_FRONTEND=noninteractive apt-get install -y ca-certificates \
+&& rm -rf /var/lib/apt/lists/*
 
 RUN  sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list \
 &&  apt-get clean
