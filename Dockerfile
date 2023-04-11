@@ -21,8 +21,8 @@ COPY . /app
 # 设定当前的工作目录
 WORKDIR /app
 
-RUN pip3 config set global.index-url http://mirrors.aliyun.com/pypi/simple \
-&& pip3 config set install.trusted-host mirrors.aliyun.com \
+RUN pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple \
+&& pip3 config set install.trusted-host pypi.tuna.tsinghua.edu.cn \
 && pip3 install pip -U \
 # 安装依赖包
 && pip3 install -r requirements.txt

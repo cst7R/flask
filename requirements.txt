@@ -17,4 +17,3 @@ opencv-python
 paddlepaddle
 paddlehub
 gradio
-setuptools-scm
